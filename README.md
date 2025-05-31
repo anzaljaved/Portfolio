@@ -9,4 +9,4 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 - **Deployment**: Netlify
 
 ## 🌍 Live Demo
-Check out the live site here: anzalj-portfolio.netlify.app
+Check out the live site here: https://anzalj-portfolio.netlify.app
