@@ -25,12 +25,14 @@ export default function Projects() {
           Visual note-taking app built with JavaScript, HTML, and CSS. Features include adding notes, drag and drop, todos, and grouping notes under columns.
         </p>
         <button
-          href="https://snapnote-by-anzal.netlify.app"
-          target="_blank"
-          rel="noopener noreferrer"
+          
           className="text-blue-400 underline"
         >
+          <a href="https://snapnote-by-anzal.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer">
           View Live Demo
+          </a>
         </button>
       </div>
 
