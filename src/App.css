@@ -5,4 +5,23 @@
   text-align: center;
 }
 
+nav ul
+{
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+h2
+{
+  font-size: x-large;
+  font-weight: bolder;
+  
+}
 
