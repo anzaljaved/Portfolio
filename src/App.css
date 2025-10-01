@@ -10,12 +10,20 @@ nav ul
   display: flex;
   gap: 20px;
   justify-content: space-evenly;
+  
+}
+
+nav ul li a
+{
+  color: oklch(0.723 0.219 149.579);
+  /* color: oklch(0.623 0.214 259.815); BLUE */
 }
 
 nav{
   display: flex;
   justify-content: space-between;
   margin: 0 200px;
+  
 }
 
 h2

@@ -19,33 +19,33 @@ export default function Projects() {
       <h2 className="text-4xl font-semibold mb-10 text-white">Projects</h2>
 
       {/* Snapnote Project */}
-      <div className="mb-12 bg-gray-900 p-6 rounded-lg shadow-md text-gray-200">
-        <h3 className="text-2xl font-bold mb-2">Snapnote</h3>
-        <p className="mb-4">
+      <div className="mb-12 border-2 border-black p-6 rounded-lg shadow-md ">
+        <h3 className="text-2xl text-green-500 font-bold mb-2">Snapnote</h3>
+        <p className="mb-4 text-black">
           Visual note-taking app built with JavaScript, HTML, and CSS. Features include adding notes, drag and drop, todos, and grouping notes under columns.
         </p>
         <button
           
-          className="text-blue-400 underline"
+          className=" underline"
         >
           <a href="https://snapnote-by-anzal.netlify.app"
           target="_blank"
           rel="noopener noreferrer">
-          View Live Demo
+          <span className="text-green-500 ">View Live Demo</span>
           </a>
         </button>
       </div>
 
       {/* Health Archive Project */}
-      <div className="bg-gray-900 p-6 rounded-lg shadow-md text-gray-200">
-        <h3 className="text-2xl font-bold mb-2">Health Archive</h3>
-        <p className="mb-4">
+      <div className=" border-2 border-black p-6 rounded-lg shadow-md ">
+        <h3 className="text-2xl text-green-500 font-bold mb-2">Health Archive</h3>
+        <p className="mb-4 text-black">
           Medical website made with PHP and SQL (backend under development). Features patient management, appointment booking, and medical records.
         </p>
 
         <button
           onClick={() => setShowScreenshots(!showScreenshots)}
-          className="mb-4 px-4 py-2 bg-blue-700 hover:bg-blue-500 rounded text-white"
+          className="mb-4 px-4 py-2 bg-green-500 hover:bg-green-600 rounded text-white"
         >
           {showScreenshots ? "Hide Screenshots" : "View Screenshots"}
         </button>

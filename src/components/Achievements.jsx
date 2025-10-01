@@ -30,16 +30,16 @@ export default function Achievements() {
   
     return (
       <section id="achievements" className="py-20 px-6 max-w-4xl mx-auto">
-        <h2 className="text-4xl font-semibold mb-10 text-white">Achievements</h2>
+        <h2 className="text-4xl font-semibold mb-10 text-green-500">Achievements</h2>
   
         <div className="flex flex-col gap-6">
           {achievements.map((ach, i) => (
             <div
               key={i}
-              className="bg-gray-200 p-5 rounded-xl shadow-lg text-gray-900"
+              className="border-2 border-green-500 p-5 rounded-xl shadow-lg text-gray-900"
             >
-              <h3 className="text-xl font-bold mb-1">{ach.title}</h3>
-              <p className="text-sm">{ach.description}</p>
+              <h3 className="text-xl  font-bold mb-1">{ach.title}</h3>
+              <p className="text-sm  text-green-500">{ach.description}</p>
             </div>
           ))}
         </div>

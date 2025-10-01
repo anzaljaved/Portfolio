@@ -4,8 +4,8 @@ export default function()
         <>
         <nav>
             <h2>M Anzal Javed</h2>
-            <ul>
-                <li><a href="#about">ABOUT</a></li>
+            <ul >
+                <li><a  href="#about">ABOUT</a></li>
                 <li><a href="#skills">SKILLS</a></li>
                 <li><a href="#achievements">ACHIEVEMENTS</a></li>
                 <li><a href="#projects">PROJECTS</a></li>

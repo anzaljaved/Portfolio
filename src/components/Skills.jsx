@@ -24,19 +24,19 @@ export default function Skills() {
       <div className="flex items-center justify-center space-x-4">
         <button 
           onClick={prevSkill} 
-          className="bg-blue-900 hover:bg-blue-600 px-4 py-2 rounded"
+          className="bg-green-600 hover:bg-green-400 px-4 py-2 rounded"
         >
           Prev
         </button>
         {/* Display 3 skills side by side */}
-        <div className="bg-gray-900 flex space-x-6  px-10 py-10 rounded-4xl shadow-lg text-2xl font-medium">
-          <div className="bg-gray-700 px-8 py-6 rounded-lg">{getSkill(0)}</div>
-          <div className="bg-gray-700 px-8 py-6 rounded-lg">{getSkill(1)}</div>
-          <div className="bg-gray-700 px-8 py-6 rounded-lg">{getSkill(2)}</div>
+        <div className="border-2 border-green-500 flex space-x-6  px-10 py-10 rounded-4xl shadow-lg text-2xl font-medium">
+          <div className="bg-green-500 px-8 py-6 rounded-3xl">{getSkill(0)}</div>
+          <div className="bg-green-500 px-8 py-6 rounded-3xl">{getSkill(1)}</div>
+          <div className="bg-green-500 px-8 py-6 rounded-3xl">{getSkill(2)}</div>
         </div>
         <button 
           onClick={nextSkill} 
-          className="bg-blue-900 hover:bg-blue-600 px-4 py-2 rounded"
+          className="bg-green-600 hover:bg-green-400 px-4 py-2 rounded"
         >
           Next
         </button>

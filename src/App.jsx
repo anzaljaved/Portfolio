@@ -14,7 +14,7 @@ import Achievements from './components/Achievements'
 
 function App() {
   return (
-    <div id="div" className="w-full min-h-screen m-0 p-0 bg-gradient-to-b from-blue-900 to-black text-white">
+    <div id="div" className="w-full min-h-screen m-0 p-0  text-green-500">
       <Navbar />
       <Hero />
       <About />
